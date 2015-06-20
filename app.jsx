@@ -139,7 +139,7 @@ var app = app || {};
               checked={activeTodoCount === 0}
             />
             <ul id="todo-list">
-							{todoItems}
+              {todoItems}
             </ul>
           </section>
         );
@@ -157,8 +157,8 @@ var app = app || {};
               autoFocus={true}
             />
           </header>
-					{main}
-					{footer}
+          {main}
+          {footer}
         </div>
       );
     }

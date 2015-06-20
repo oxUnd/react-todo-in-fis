@@ -44,7 +44,7 @@ export var TodoFooter = React.createClass({
               All
             </a>
           </li>
-						{' '}
+            {' '}
           <li>
             <a
               href="#/active"
@@ -52,7 +52,7 @@ export var TodoFooter = React.createClass({
               Active
             </a>
           </li>
-						{' '}
+            {' '}
           <li>
             <a
               href="#/completed"
@@ -61,7 +61,7 @@ export var TodoFooter = React.createClass({
             </a>
           </li>
         </ul>
-					{clearButton}
+          {clearButton}
       </footer>
     );
   }

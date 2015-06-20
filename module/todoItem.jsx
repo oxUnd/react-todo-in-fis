@@ -86,7 +86,7 @@ export var TodoItem = React.createClass({
             onChange={this.props.onToggle}
           />
           <label onDoubleClick={this.handleEdit}>
-							{this.props.todo.title}
+              {this.props.todo.title}
           </label>
           <button className="destroy" onClick={this.props.onDestroy} />
         </div>
