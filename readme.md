@@ -35,3 +35,5 @@ fis release
 fis server start --type node
 ```
 > fis server -h 更多参数，比如修改端口号或者其他
+
+> 可用其他的 Web 服务代替
