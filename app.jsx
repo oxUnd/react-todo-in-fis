@@ -87,7 +87,7 @@ var app = app || {};
       var main;
       var todos = this.props.model.todos;
 
-      var shownTodos = todos.filter(function (todo) {
+      var shownTodos = todos.filter((todo) => {
         switch (this.state.nowShowing) {
           case app.ACTIVE_TODOS:
             return !todo.completed;
@@ -98,7 +98,7 @@ var app = app || {};
         }
       }, this);
 
-      var todoItems = shownTodos.map(function (todo) {
+      var todoItems = shownTodos.map((todo) => {
         return (
           <TodoItem
             key={todo.id}
@@ -113,7 +113,7 @@ var app = app || {};
         );
       }, this);
 
-      var activeTodoCount = todos.reduce(function (accum, todo) {
+      var activeTodoCount = todos.reduce((accum, todo) => {
         return todo.completed ? accum : accum + 1;
       }, 0);
 
