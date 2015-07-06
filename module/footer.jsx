@@ -14,7 +14,7 @@
 import {Utils} from "./utils.js";
 
 export var TodoFooter = React.createClass({
-  render: function () {
+  render () {
     var activeTodoWord = Utils.pluralize(this.props.count, 'item');
     var clearButton = null;
 
